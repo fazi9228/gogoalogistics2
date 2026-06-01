@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(npm install next@15.5.18 eslint-config-next@15.5.18 --no-audit --no-fund)",
+      "PowerShell(npm run build 2>&1)",
+      "PowerShell(Start-Sleep -Seconds 7; Get-Content \"C:\\\\Users\\\\FaziKhan\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-FaziKhan-OneDrive---Pepperstone-Documents-work-reports-ad-hoc-test\\\\3223c0e1-2be5-441f-b0d3-37303aa61377\\\\tasks\\\\bsjj1pmh4.output\"; \"\"; try { $r = Invoke-WebRequest -Uri \"http://localhost:3000\" -UseBasicParsing -TimeoutSec 30; \"HOMEPAGE STATUS: $\\($r.StatusCode\\)\" } catch { \"ERROR: $\\($_.Exception.Message\\)\" })"
+    ]
+  }
+}

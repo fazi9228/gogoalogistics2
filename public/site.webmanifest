@@ -1,0 +1,16 @@
+{
+  "name": "GoGoa Logistics",
+  "short_name": "GoGoa",
+  "description": "Courier and logistics services in Goa — domestic and international shipping from Margao.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F6F2",
+  "theme_color": "#0F2A47",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
