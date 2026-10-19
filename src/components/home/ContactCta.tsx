@@ -44,7 +44,7 @@ export default function ContactCta() {
           <Button
             href="/contact"
             size="lg"
-            className="border-white bg-white text-navy hover:bg-offwhite"
+            className="border-orange-dark bg-orange-dark text-white hover:border-orange hover:bg-orange"
           >
             Contact form
           </Button>
