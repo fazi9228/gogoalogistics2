@@ -99,7 +99,7 @@ export default function Footer() {
           <p>
             Serving Margao, Navelim, South Goa &amp; North Goa. ·{" "}
             <span className="text-white/40">
-              Phone &amp; address shown are placeholders — update before launch.
+              Address shown is a placeholder — update before launch.
             </span>
           </p>
         </Container>

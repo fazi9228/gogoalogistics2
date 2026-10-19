@@ -32,8 +32,8 @@ export default function Hero() {
           </div>
 
           <h1 className="text-3xl font-extrabold leading-[1.1] tracking-tight sm:text-4xl lg:text-5xl">
-            Courier &amp; logistics in Goa,{" "}
-            <span className="text-orange">done properly.</span>
+            Send it from Goa.{" "}
+            <span className="text-orange">We&apos;ll help get it there.</span>
           </h1>
 
           <p className="mt-5 max-w-xl text-base leading-relaxed text-white/80 sm:text-lg">

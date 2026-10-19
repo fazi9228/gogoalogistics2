@@ -100,7 +100,7 @@ export default function BlogPage() {
           ))}
         </div>
 
-        <p className="mt-8 border border-dashed border-line bg-offwhite p-4 text-sm text-slatey">
+        <p className="hidden mt-8 border border-dashed border-line bg-offwhite p-4 text-sm text-slatey">
           <strong className="text-navy">Building your SEO content?</strong> Add
           new articles in{" "}
           <code className="bg-line px-1 py-0.5 text-xs">src/lib/blog.ts</code> —

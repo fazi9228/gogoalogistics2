@@ -1,35 +1,28 @@
 import Section, { SectionHeading } from "@/components/ui/Section";
-import { testimonials } from "@/lib/content";
+
+const shipmentExamples = [
+  { title: "Documents abroad", detail: "Passports, certificates, agreements and other papers sent to family, colleges and offices overseas." },
+  { title: "Parcels across India", detail: "Household items, gifts and shop orders booked by weight for destinations across the country." },
+  { title: "Daily business dispatch", detail: "Scheduled pickup and consolidated booking for shops, online sellers and offices." },
+  { title: "Urgent documents", detail: "Priority options for papers that need to reach a customer, office or family member quickly." },
+];
 
 export default function Testimonials() {
   return (
     <Section>
       <SectionHeading
-        eyebrow="Customer feedback"
-        title="What Goa senders say"
-        description="A few words from individuals and businesses we ship for."
+        eyebrow="Typical shipments"
+        title="What comes through the counter"
+        description="A few common reasons people contact us. If your shipment is different, ask us before packing it."
       />
 
       <div className="mt-8 grid gap-px overflow-hidden border border-line bg-line sm:grid-cols-2">
-        {testimonials.map((t) => (
-          <figure
-            key={t.name}
-            className="flex flex-col bg-white p-6 sm:p-7"
-          >
-            <div className="mb-3 flex gap-0.5 text-orange" aria-hidden>
-              {"★★★★★"}
-            </div>
-            <blockquote className="flex-1 text-sm leading-relaxed text-ink">
-              “{t.quote}”
-            </blockquote>
-            <figcaption className="mt-4 border-t border-line pt-3 text-sm">
-              <span className="font-bold text-navy">{t.name}</span>
-              <span className="text-slatey"> · {t.location}</span>
-              <span className="mt-0.5 block text-xs uppercase tracking-wide text-mute">
-                {t.context}
-              </span>
-            </figcaption>
-          </figure>
+        {shipmentExamples.map((item) => (
+          <div key={item.title} className="flex flex-col bg-white p-6 sm:p-7">
+            <h3 className="text-lg font-bold text-navy">{item.title}</h3>
+            <p className="mt-3 flex-1 text-sm leading-relaxed text-slatey">{item.detail}</p>
+            <span className="mt-5 border-t border-line pt-3 text-xs font-semibold uppercase tracking-wide text-orange-dark">Ask for a quote</span>
+          </div>
         ))}
       </div>
     </Section>

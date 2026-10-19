@@ -8,6 +8,7 @@ import { ServiceIcon, CheckIcon, WhatsAppIcon } from "@/components/ui/Icon";
 import { services } from "@/lib/services";
 import { whatsappLink } from "@/lib/site";
 import { BreadcrumbJsonLd } from "@/components/seo/JsonLd";
+import PricingTables from "@/components/home/PricingTables";
 
 export const metadata: Metadata = {
   title: "Courier & Logistics Services in Goa | GoGoa Logistics",
@@ -103,6 +104,8 @@ export default function ServicesPage() {
           ))}
         </div>
       </Section>
+
+      <PricingTables />
 
       <HowItWorks />
       <ContactCta />

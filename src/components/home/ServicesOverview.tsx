@@ -8,8 +8,8 @@ export default function ServicesOverview() {
     <Section className="bg-offwhite">
       <div className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
         <SectionHeading
-          eyebrow="Our Services"
-          title="Shipping for every kind of sender"
+          eyebrow="What we handle"
+          title="Documents, parcels and regular dispatch"
           description="Individuals, families, students, online sellers and businesses across Goa rely on us for the same thing — parcels and documents that arrive."
         />
         <Link

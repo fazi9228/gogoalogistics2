@@ -63,22 +63,22 @@ export type Reason = {
 
 export const whyChooseUs: Reason[] = [
   {
-    title: "Reliable, not just cheap",
+    title: "Clear rates before booking",
     detail:
       "We book through established networks and follow up on shipments that need chasing. A parcel that actually arrives is worth more than a rate that looks good on paper.",
   },
   {
-    title: "Local people you can reach",
+    title: "A local counter in Margao",
     detail:
       "We are a Goa counter run by people from here. Call us, WhatsApp us, or walk in — you talk to someone who knows your shipment, not a call centre.",
   },
   {
-    title: "Fast response",
+    title: "Pickup and drop-off options",
     detail:
       "Quotes on WhatsApp within working hours, usually in minutes. Same-day pickup across Margao and nearby areas when you book early.",
   },
   {
-    title: "Straight, competitive pricing",
+    title: "Domestic and international options",
     detail:
       "We quote surface and air options so you choose the trade-off. No padded charges, and account rates for businesses that ship regularly.",
   },

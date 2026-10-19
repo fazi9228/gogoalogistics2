@@ -1,9 +1,7 @@
 /**
  * Central site configuration.
  *
- * Contact details below are PLACEHOLDERS — replace the values marked with
- * "XXXX" before going live. Search the project for `+91-XXXXX` to find every
- * place a phone number is rendered (they all read from here).
+ * Keep the contact details here as the single source of truth for the site.
  */
 
 export const site = {
@@ -13,14 +11,14 @@ export const site = {
   domain: "gogoalogistics.com",
   url: "https://www.gogoalogistics.com",
 
-  // --- Contact (PLACEHOLDERS) ---
-  phoneDisplay: "+91 XXXXX XXXXX",
-  phoneHref: "tel:+91XXXXXXXXXX",
+  // --- Contact ---
+  phoneDisplay: "+91 95459 22170",
+  phoneHref: "tel:+919545922170",
   // wa.me requires the number in international format, digits only.
-  whatsappNumber: "91XXXXXXXXXX",
-  email: "bookings@gogoalogistics.com",
+  whatsappNumber: "919545922170",
+  email: "gogoalogistics1@gmail.com",
 
-  // --- Address (PLACEHOLDER) ---
+  // --- Address (replace with the exact counter address before launch) ---
   address: {
     line1: "Shop No. 00, Ground Floor",
     line2: "Near Municipal Market, Station Road",

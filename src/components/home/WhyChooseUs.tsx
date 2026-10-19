@@ -5,8 +5,8 @@ export default function WhyChooseUs() {
   return (
     <Section>
       <SectionHeading
-        eyebrow="Why customers choose us"
-        title="A courier partner, not just a counter"
+        eyebrow="Before you book"
+        title="Useful information, upfront"
         description="There are plenty of places to drop a parcel. Here is why people in Goa keep coming back to us."
       />
 
